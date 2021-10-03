@@ -20,7 +20,7 @@ all: $(OBJS)
 
 
 testmemory: all
-	$(VAL) ./$(EXEC) inputs/input3 > output3
+	$(VAL) ./$(EXEC) inputs/input3 output3
 #testing only input3 and output3
 
 
